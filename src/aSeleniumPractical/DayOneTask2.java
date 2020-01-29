@@ -26,7 +26,14 @@ public class DayOneTask2 {
 		driver.get("http://www.greenstechnologys.com/selenium-course-content.html");
 		String s4 = driver.getTitle();
 		System.out.println(s4);
+
+		driver.get("http://www.google.com");
+		String s5 = driver.getTitle();
+		System.out.println(s5);
 		
+		driver.get("http://www.facebook.com");
+		String s6 = driver.getTitle();
+		System.out.println(s6);
 
 	}
 }
